@@ -1,4 +1,7 @@
 package main.io;
 
-public class ILecteur {
+// Contrat pour tout lecteur de fichier
+public interface ILecteur {
+
+    model.FichierCSV lire(String chemin);
 }
