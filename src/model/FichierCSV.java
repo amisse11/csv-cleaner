@@ -7,14 +7,14 @@ import java.util.List;
 public class FichierCSV {
 
     private String[] entetes;
-    private final List<String[]> lignes;
+    private List<String[]> lignes;
 
     // Constructeur : initialise la liste vide
     public FichierCSV() {
         this.lignes = new ArrayList<>();
     }
 
-    // --- Getters / Setters ---
+    // Getters / Setters
 
     public String[] getEntetes() {
         return entetes;
