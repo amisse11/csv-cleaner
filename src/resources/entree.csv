@@ -1,0 +1,6 @@
+nom,age,ville,email
+alice,25,  paris  ,alice@email.com
+  BOB  ,,Montreal,bob@email.com
+Marie,30,lyon,
+,22,Toronto,test@email.com
+Carlos  ,  28  ,  ,carlos@email.com

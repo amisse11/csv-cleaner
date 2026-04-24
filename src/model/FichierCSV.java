@@ -6,8 +6,8 @@ import java.util.List;
 // Représente un fichier CSV chargé en mémoire (entêtes + lignes de données)
 public class FichierCSV {
 
+    private final List<String[]> lignes;
     private String[] entetes;
-    private List<String[]> lignes;
 
     // Constructeur : initialise la liste vide
     public FichierCSV() {
