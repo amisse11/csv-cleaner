@@ -1,12 +1,12 @@
 package main.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import main.io.IEcrivain;
 import main.io.ILecteur;
 import main.nettoyage.INettoyeur;
 import model.FichierCSV;
+
+import java.util.ArrayList;
+import java.util.List;
 
 // Orchestre la lecture, le nettoyage et l'écriture du fichier CSV
 public class ServiceNettoyage {
